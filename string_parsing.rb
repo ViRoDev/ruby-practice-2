@@ -1,10 +1,6 @@
-# which are supported in this calculator
-ARITHMETIC_OPERATORS = {
-  ADDITION: '+',
-  SUBSTRACTION: '-',
-  MULTIPLICATION: '*',
-  DIVISION: '/'
-}.freeze
+# frozen_string_literal: true
+
+require_relative 'arithmetic_operators'
 
 OPERATOR_REGEX = Regexp.new(
   ARITHMETIC_OPERATORS
