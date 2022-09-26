@@ -2,8 +2,8 @@
 
 # supported operators
 ARITHMETIC_OPERATORS = {
-    ADDITION: '+',
-    SUBSTRACTION: '-',
-    MULTIPLICATION: '*',
-    DIVISION: '/'
+  ADDITION: '+',
+  SUBSTRACTION: '-',
+  MULTIPLICATION: '*',
+  DIVISION: '/'
 }.freeze
